@@ -1,0 +1,33 @@
+
+
+@media only screen and (max-width:1200px){
+    body{
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .container-parent,.howto-container,.comments-parent,.signup-parent,.navigation{
+        display: block;
+        margin-left:auto;
+        
+    }
+    .active{
+        display: none;
+    }
+    header{
+        background-repeat: no-repeat;
+          
+    }
+   .signup-parent {
+       
+    margin-top: 50%;
+    width:250%;
+    }
+    .comments-parent{
+        margin-top: 0%;
+        height:10%;
+        
+    }
+}
+
